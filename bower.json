@@ -1,0 +1,38 @@
+{
+  "name": "irequire",
+  "version": "0.0.0",
+  "authors": [
+    "Oleksandr Knyga <oleksandrknyga@gmail.com>"
+  ],
+  "description": "Extention of require.js with irequire function to include dependencies based on function's argument names.",
+  "main": "src/irequire.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "require.js",
+    "inject",
+    "angular",
+    "require",
+    "irequire",
+    "oknyga",
+    "knyga",
+    "arguments",
+    "injection"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/knyga/irequire",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.7"
+  },
+  "devDependencies":{
+    "jasmine": "~2.2.1"
+  }
+}
